@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    font-family:Arial;
+    color: rgb(0, 145, 255);
+    font-size: 25px;
+    margin: 50px;
+}
+.logo1{
+    color: gray;
+}
+.top-img > img{
+    width: 100%;
+    height: 25rem;
+}
+.firstcon{
+    display: flex;
+    justify-content:space-around;
+    margin: 60px;
+}
+.con{
+    width: 100px;
+    border: ridge;
+    color: gray;
+    justify-items: center;
+    box-shadow: 8PX 8PX 8PX lightgray;
+    padding: 40px;
+}
+.con:hover{
+    color:rgb(7, 164, 226);
+    box-shadow:3px 3px 3px rgb(68, 159, 233);
+}
+
+.con img{
+    height: 40px;
+    padding: 20px;
+    
+
+}
+.secondcon{
+    display: flex;
+    margin: 90px;
+    gap: 10px;
+}
+.image-section {
+    width: 60%;
+}
+.image-section > img{
+    width: 100%;
+    height: 90%;
+}
+.text-section {
+    width: 80%;
+    margin-left: 50px;
+} 
+.text-section > h1{
+    color: rgb(41, 151, 229);
+    font-size: 2.5rem;
+}
+.text-section p {
+    color: gray;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 80%;
+    text-align: justify;
+}
+.warning{
+    margin-top: 50px;
+}
+.warning p{
+    width: 80%;
+    color: gray;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 10px;
+
+}
+.warning > a{
+    position: absolute;
+    margin: 130px;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(10, 138, 198);
+    text-decoration: none;
+    padding: 15px 35px;
+}
+
+.thirdcon{
+    display: flex;
+    margin: 90px;
+    justify-content: space-between;
+}
+.img-con{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.numb{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.numb span{
+    background-color: white;
+    border: 1px ridge gray;
+    color: gray;
+    font-size: 25px;
+    padding: 10px 18px;
+}
+ .numb span:hover{
+    background-color: rgb(3, 122, 161);
+    color: white;
+}
+.galinfo{
+    width: 30%;
+}
+.galinfo img{
+    width: 20px;
+}
+.galinfo h2{
+    color: rgb(1, 110, 234) ;
+    font-size: 30px;
+
+}
+.galinfo span{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    color: gray;
+    font-size:20px ;
+}
+.galinfo p{
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+}
+.galinfo span:hover{
+    color: rgb(1, 110, 234) ;
+}
+ .testmonials-heading{
+    margin-left: 90px;
+    color: rgb(1, 110, 234); 
+}
+.testmonials{
+    display: flex;
+    margin: 20px 90px 90px 90px;
+    gap: 40px;
+    color: gray;
+    font-size: 20px;
+    
+}
+.testmonials-1,.testmonials-2,.testmonials-3{
+    width: 33.33%;
+    text-align: justify;
+}
+.testmonials img{
+    width: 100%;
+}
+.testmonials-1 p{
+    padding: 10px 0px;
+      
+}
+.testmonials-2 p{
+    padding: 10px 0px;
+}
+.testmonials-3 p{
+    padding: 10px 0px;
+}
+.testmonials-2 a{
+    position: absolute;
+    margin: 20px 80px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    padding: 15px 40px;
+}
+.testmonials span{
+    color: rgb(0, 140, 255);
+
+}
+
+     
+
+
+
